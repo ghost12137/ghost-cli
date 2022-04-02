@@ -1,0 +1,37 @@
+{
+  "name": "ghost-cli",
+  "version": "1.0.0",
+  "description": "ghost-cli脚手架",
+  "main": "./bin/cli.js",
+  "bin": {
+    "ghost": "./bin/cli.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "files": [
+    "bin",
+    "lib",
+    "utils"
+  ],
+  "author": {
+    "name": "ghost12137",
+    "email": "1292305370@qq.com"
+  },
+  "keywords": [
+    "ghost-cli",
+    "ghost",
+    "脚手架"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.26.1",
+    "chalk": "^4.1.0",
+    "commander": "^9.1.0",
+    "download-git-repo": "^3.0.2",
+    "figlet": "^1.5.2",
+    "fs-extra": "^10.0.1",
+    "inquirer": "^8.2.2",
+    "ora": "5.1"
+  }
+}
